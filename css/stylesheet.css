@@ -1,0 +1,22 @@
+.loading{
+  background: url('../img/loading-medium.gif');
+  width:24px;
+  height:24px;
+  margin-left:-20px;
+}
+.succomplate {
+  background: url('../img/success-icon.png');
+  width:24px;
+  height:24px;
+  margin-left:-20px;
+}
+.urlslist{
+  min-height:500px;
+  /*overflow:scroll;*/
+}
+.brdright {
+  border-right:thin solid #CCC;
+}
+.container {
+  width:100%;
+}
