@@ -16,9 +16,7 @@ app.controller('OriginController', function($timeout) {
     angular.forEach(this.compares, function(val,key) {
       if(val.url != '') { 
         val.status = 1;
-        $timeout( function(){
-          val.status = 2;
-        }, 5000);
+        $timeout( function(){val.status = 2;}, 5000);
       }
       else {
         val.status = 0;
